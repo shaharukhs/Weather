@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		53DC0B1751E5CF1E3A6C60B5 /* Pods_WeatherMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E78C538AF7C982C2DB68E077 /* Pods_WeatherMVVM.framework */; };
 		91310B78F46F6C2A81EFCA95 /* Pods_WeatherMVVM_WeatherMVVMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57CF55E6F521573CFC461AD8 /* Pods_WeatherMVVM_WeatherMVVMUITests.framework */; };
+		922A89392375999B00E9C201 /* dark_mode.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 922A89372375999B00E9C201 /* dark_mode.PNG */; };
+		922A893A2375999B00E9C201 /* light_mode.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 922A89382375999B00E9C201 /* light_mode.PNG */; };
 		926594852372DE96008E32C7 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926594842372DE96008E32C7 /* Reachability.swift */; };
 		926594F32373F080008E32C7 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926594F22373F080008E32C7 /* Alert.swift */; };
 		92E3200123696629003002BC /* ForecastClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E3200023696629003002BC /* ForecastClient.swift */; };
@@ -70,8 +72,9 @@
 		50B48C2DF954DFB65152701E /* Pods-WeatherMVVMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherMVVMTests.debug.xcconfig"; path = "Target Support Files/Pods-WeatherMVVMTests/Pods-WeatherMVVMTests.debug.xcconfig"; sourceTree = "<group>"; };
 		57CF55E6F521573CFC461AD8 /* Pods_WeatherMVVM_WeatherMVVMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherMVVM_WeatherMVVMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72563FC10A30D322D2C545FB /* Pods-WeatherMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherMVVM.debug.xcconfig"; path = "Target Support Files/Pods-WeatherMVVM/Pods-WeatherMVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		922A89372375999B00E9C201 /* dark_mode.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dark_mode.PNG; sourceTree = "<group>"; };
+		922A89382375999B00E9C201 /* light_mode.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_mode.PNG; sourceTree = "<group>"; };
 		926594842372DE96008E32C7 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
-		926594AF2372ED4D008E32C7 /* WeatherMVVM copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "WeatherMVVM copy-Info.plist"; path = "/Users/neosoft/Documents/Desktop/Demo Code/WeatherMVVM/WeatherMVVM copy-Info.plist"; sourceTree = "<absolute>"; };
 		926594F22373F080008E32C7 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		92E3200023696629003002BC /* ForecastClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastClient.swift; sourceTree = "<group>"; };
 		92E320022369676F003002BC /* WeatherClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherClient.swift; sourceTree = "<group>"; };
@@ -148,6 +151,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		922A89362375995E00E9C201 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				922A89372375999B00E9C201 /* dark_mode.PNG */,
+				922A89382375999B00E9C201 /* light_mode.PNG */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		92E31FFE23696601003002BC /* ForecastClient */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,7 +252,6 @@
 				E9B368A622C4973D00A81960 /* WeatherMVVMTests */,
 				E9B368B122C4973D00A81960 /* WeatherMVVMUITests */,
 				E9B3689022C4973A00A81960 /* Products */,
-				926594AF2372ED4D008E32C7 /* WeatherMVVM copy-Info.plist */,
 				9E3F97D53378EA1EE7209B55 /* Pods */,
 				C345C5FADCCC11DDC8D3692A /* Frameworks */,
 			);
@@ -259,6 +270,7 @@
 		E9B3689122C4973A00A81960 /* WeatherMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				922A89362375995E00E9C201 /* Screenshots */,
 				E9B368C222C4977C00A81960 /* Model */,
 				E98921F522E98BD1000997BE /* View */,
 				E9B368C122C4977100A81960 /* ViewModel */,
@@ -513,8 +525,10 @@
 				E989220322E9A88D000997BE /* Proxima Nova Soft W03 Bold.ttf in Resources */,
 				E989220422E9A88D000997BE /* Proxima Nova Soft W03 Regular.ttf in Resources */,
 				E989220222E9A88D000997BE /* ProximaNova-Semibold.ttf in Resources */,
+				922A89392375999B00E9C201 /* dark_mode.PNG in Resources */,
 				E98921FA22E98BFC000997BE /* CurrentWeatherView.xib in Resources */,
 				E9B3689A22C4973D00A81960 /* Assets.xcassets in Resources */,
+				922A893A2375999B00E9C201 /* light_mode.PNG in Resources */,
 				E9D9459722F0738900891B97 /* HourlyForecastTVC.xib in Resources */,
 				E9B3689822C4973A00A81960 /* Main.storyboard in Resources */,
 			);
