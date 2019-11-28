@@ -29,6 +29,13 @@ class HourlyForecastTVC: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
+        if #available(iOS 13.0, *) {
+            pulleyView.backgroundColor = .label
+        } else {
+            // Fallback on earlier versions
+            pulleyView.backgroundColor = .black
+        }
+        
         pulleyView.layer.cornerRadius = pulleyView.frame.size.height/2
         pulleyView.layer.masksToBounds = true
         // Initialization code
